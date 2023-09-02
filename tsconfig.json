@@ -1,4 +1,11 @@
 {
-  "compilerOptions": {},
-  "extends": "expo/tsconfig.base"
-}
+  "compileOnSave": true,
+  "extends": "expo/tsconfig.base",
+
+    "compilerOptions": {
+      "strict": true,
+      "noFallthroughCasesInSwitch": true
+    },
+    "exclude": ["android", "ios", "node_modules"],
+  }
+
